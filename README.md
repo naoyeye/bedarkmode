@@ -6,7 +6,7 @@ https://naoyeye.github.io/bedarkmode/
 
 ### 使用
 
-脚本都放在 download 目录里了，用哪个下那个就可以。
+脚本都放在 download 目录里了，用哪个下哪个就可以。
 
 
 ### 开发
@@ -29,6 +29,8 @@ https://naoyeye.github.io/bedarkmode/
 
 
 - [x] 微博：
+  
+  自己用的脚本，去掉了微博一些没用的东西，为了上班时摸鱼不被别人看出是微博。
 
 <img src="https://naoyeye.github.io/bedarkmode/screenshot/weibo/1.png">
 
