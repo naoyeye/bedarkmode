@@ -1,0 +1,148 @@
+/*
+* @Author: hanjiyun
+* @Date:   2018-10-26 16:40:54
+* @Last Modified by:   hanjiyun
+* @Last Modified time: 2018-10-26 17:04:30
+*/
+
+body {
+  padding: 0;
+}
+
+#title h1 a {
+  position: relative;
+  font-size: 13px;
+  display: inline-block;
+  margin-left: 10px;
+  top: -15px;
+  padding: 4px 7px;
+  line-height: 1;
+  background: green;
+  color: #fff;
+  border-radius: 3px;
+  text-decoration: underline dotted #fff;
+  cursor: pointer;
+}
+
+section {
+  margin-top: 0;
+}
+
+ul.screenshot-list {
+  margin: 0;
+  padding: 0;
+}
+
+.screenshot-list li {
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  background: rgba(255, 255, 255, .1);
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.screenshot-list li a {
+  display: block;
+  width: 100%;
+  height: 450px;
+  overflow-y: scroll;
+}
+
+.screenshot-list li a:hover {
+  cursor: zoom-in;
+}
+
+.screenshot-list li img {
+  position: relative;
+  width: 100%;
+  display: block;
+  left: -5px;
+}
+
+.screenshot-title {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.fuck-btn {
+  background: #93bd20;
+  border: 1px solid #5d910b;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3), 0 3px 7px rgba(0, 0, 0, .7);
+  padding: 10px;
+  line-height: 1;
+  border-radius: 5px;
+  font-size: 13px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.fuck-btn:hover {
+  background-color: #659e10;
+  border: 1px solid #527f0e;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .2), 0 1px 0 rgba(0, 0, 0, 0);
+}
+
+
+h3 {
+  position: relative;
+  height: 35px;
+  overflow: hidden;
+  line-height: 35px;
+}
+
+h3 span {
+  display: inline-block;
+}
+
+h3 .fuck-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#footer {
+  height: 160px;
+  width: 100%;
+  background: url('../images/nav-bg.gif') #353535;
+  border-top: 4px solid #434343;
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, .25);
+}
+
+#footer nav {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 10px;
+  margin: 6px auto;
+}
+
+#footer nav li {
+  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  list-style: none;
+  display: inline;
+  color: white;
+  line-height: 50px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .2);
+  font-size: 14px;
+}
+
+
+
+#footer nav li.fork {
+  float: left;
+  margin-left: 0;
+}
+
+#footer nav li.downloads,
+#footer nav li.maintainer {
+  float: right;
+  margin-left: 6px;
+}
+
+#footer nav li.title {
+  float: right;
+  margin-right: 10px;
+  font-size: 11px;
+}

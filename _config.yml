@@ -1,1 +1,36 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Bedarkmode
+email: jiyun@han.im
+description: > # this means to ignore newlines until "baseurl:"
+  通过油猴脚本给微博、知乎等网站增加 Dark mode 样式
+baseurl: "/bedarkmode" # the subpath of your site, e.g. /blog
+url: "https://naoyeye.github.io" # the base hostname & protocol for your site
+google_analytics: 'UA-9097302-17'
+
+github_username: naoyeye
+github_owner_name: "naoyeye"
+github_owner_url: "http://han.im"
+
+# fuck jekyll metadata
+github:
+  [metadata]
+
+# Build settings
+markdown: kramdown
+
+# fuck jekyll theme
 theme: jekyll-theme-midnight
