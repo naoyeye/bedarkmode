@@ -3,8 +3,7 @@
 // @namespace    weibo-dark-mode-by-naoyeye
 // @version      0.1
 // @description  Make Weibo Dark Again!
-// @author       napyeye
-// @website      http://han.im
+// @author       http://han.im
 // @include      https://weibo.com/*
 // @include      https://www.weibo.com/*
 // @grant        none
@@ -157,6 +156,7 @@
       display: none;
     }
 
+
     .WB_frame,
     .WB_frame #plc_main,
     .WB_main_c,
@@ -175,6 +175,19 @@
 
     .WB_global_nav .gn_header {
       width: 700px;
+    }
+
+    /* 未登录首页 */
+    .FRAME_login .WB_frame,
+    .FRAME_login .WB_frame #plc_main {
+      width: 1030px;
+    }
+
+    .FRAME_login .WB_frame_c {
+      width: 660px;
+    }
+    .FRAME_login .WB_main_r {
+      display: inline-block;
     }
 
     .WB_global_nav .gn_position {
@@ -253,6 +266,11 @@
     .weibo_TV .Live_sidebar li.curr a {
       background: #444;
       color: #777
+    }
+
+    .W_input:focus,
+    .W_input_focus {
+      border-color: #7cc281 !important;
     }
 
     `
