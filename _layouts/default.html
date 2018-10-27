@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/fuck-style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/fuck-jekyll-style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
     <!--[if lt IE 9]>
@@ -27,25 +27,27 @@
 
   </head>
   <body>
-    <div class="wrapper">
+    <div class="container">
+      <div class="wrapper">
+      
+        <section>
+          <div id="title">
+            <h1>{{ site.title | default: site.github.repository_name }}<a href="{{ site.github.repository_url | default: site.github_repository_url }}">查看本项目的 GitHub 主页</a></h1>
+            <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-      <section>
-        <div id="title">
-          <h1>{{ site.title | default: site.github.repository_name }}<a href="{{ site.github.repository_url | default: site.github_repository_url }}">本项目的 GitHub 主页</a></h1>
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="{{ site.github.owner_url | default: site.github_owner_url }}">{{ site.github.owner_name | default: site.github_owner_name }}</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/pages-themes/midnight">mattgraham</a></span>
-        </div>
+            <span class="credits left">Project maintained by <a href="{{ site.github.owner_url | default: site.github_owner_url }}">{{ site.github.owner_name | default: site.github_owner_name }}</a></span>
+            <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/pages-themes/midnight">mattgraham</a></span>
+          </div>
 
-        {{ content }}
+          {{ content }}
 
-      </section>
+        </section>
+      </div>
     </div>
 
       <div id="footer">
         <nav>
-          <li class="fork"><a href="{{ site.github.repository_url | default: site.github_repository_url }}">本项目的 GitHub 主页</a></li>
+          <li class="fork"><a href="{{ site.github.repository_url | default: site.github_repository_url }}">查看本项目的 GitHub 主页</a></li>
           {% if site.show_downloads %}
             <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li>
             <li class="downloads"><a href="{{ site.github.tar_url }}">TAR</a></li>

@@ -16,7 +16,7 @@
 title: Bedarkmode
 email: jiyun@han.im
 description: > # this means to ignore newlines until "baseurl:"
-  通过油猴脚本给微博、知乎等网站增加 Dark mode 样式
+  通过 javascript 脚本给微博、知乎等网站增加 Dark mode 样式
 baseurl: "/bedarkmode" # the subpath of your site, e.g. /blog
 url: "https://naoyeye.github.io" # the base hostname & protocol for your site
 google_analytics: 'UA-9097302-17'

@@ -2,26 +2,67 @@
 * @Author: hanjiyun
 * @Date:   2018-10-26 16:40:54
 * @Last Modified by:   hanjiyun
-* @Last Modified time: 2018-10-26 17:04:30
+* @Last Modified time: 2018-10-27 15:04:37
 */
 
 body {
   padding: 0;
+  background: #061121;
 }
 
-#title h1 a {
+.container {
+  background: #061121 url('./../img/night-bg.jpg') center top no-repeat;
+  background-size: contain;
+  text-shadow: -1px 1px 0 rgba(0, 0, 0, .4);
+}
+
+a {
+  outline: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+.preview {
+  margin: 0 -100px 60px -100px;
+  padding-top: 100px;
+}
+
+.preview a {
+  opacity: .94;
+}
+
+section #title {
+  padding-top: 20px;
+}
+
+section #title p {
+  padding: 20px 0 10px;
+  border-bottom: 3px double rgba(255, 255, 255, .1);
+}
+
+section #title h1 a {
   position: relative;
   font-size: 13px;
   display: inline-block;
   margin-left: 10px;
-  top: -15px;
-  padding: 4px 7px;
+  top: -8px;
+  padding: 6px 7px;
   line-height: 1;
   background: green;
   color: #fff;
   border-radius: 3px;
-  text-decoration: underline dotted #fff;
+  text-decoration: none;
   cursor: pointer;
+}
+
+section #title h1 a:hover {
+  background: #006b14;
+}
+
+section #title .credits {
+  color: #6f8cad;
 }
 
 section {
@@ -38,7 +79,7 @@ ul.screenshot-list {
   display: inline-block;
   width: 100%;
   padding: 10px;
-  background: rgba(255, 255, 255, .1);
+  background: rgba(0, 0, 0, .2);
   box-sizing: border-box;
   margin-bottom: 20px;
 }
@@ -55,10 +96,8 @@ ul.screenshot-list {
 }
 
 .screenshot-list li img {
-  position: relative;
   width: 100%;
   display: block;
-  left: -5px;
 }
 
 .screenshot-title {
@@ -67,21 +106,18 @@ ul.screenshot-list {
 }
 
 .fuck-btn {
-  background: #93bd20;
-  border: 1px solid #5d910b;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3), 0 3px 7px rgba(0, 0, 0, .7);
+  background: green;
   padding: 10px;
   line-height: 1;
-  border-radius: 5px;
+  border-radius: 3px;
   font-size: 13px;
   color: #fff;
   cursor: pointer;
 }
 
 .fuck-btn:hover {
-  background-color: #659e10;
-  border: 1px solid #527f0e;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .2), 0 1px 0 rgba(0, 0, 0, 0);
+  background-color: #006b14;
+  color: #fff;
 }
 
 
@@ -105,9 +141,9 @@ h3 .fuck-btn {
 #footer {
   height: 160px;
   width: 100%;
-  background: url('../images/nav-bg.gif') #353535;
-  border-top: 4px solid #434343;
-  box-shadow: 0 -1px 3px rgba(0, 0, 0, .25);
+  background: #111;
+  background-size: contain;
+  border-top: 4px solid #10223c;
 }
 
 #footer nav {
