@@ -35,11 +35,6 @@ https://naoyeye.github.io/bedarkmode/
 <img src="https://naoyeye.github.io/bedarkmode/screenshot/weibo/1.png">
 
 
-<img src="https://naoyeye.github.io/bedarkmode/screenshot/weibo/2.png">
-
-
-<img src="https://naoyeye.github.io/bedarkmode/screenshot/weibo/3.png">
-
 
 - [ ] ### 知乎：
 
