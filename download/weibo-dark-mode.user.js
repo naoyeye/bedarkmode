@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         weibo-dark-mode
 // @namespace    weibo-dark-mode-by-naoyeye
-// @version      0.0.1
+// @version      0.0.2
 // @description  Make Weibo Dark Again!
 // @author       naoyeye
 // @homepage     http://han.im
