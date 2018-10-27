@@ -24,6 +24,7 @@ google_analytics: 'UA-9097302-17'
 github_username: naoyeye
 github_owner_name: "naoyeye"
 github_owner_url: "http://han.im"
+github_repository_url: "https://github.com/naoyeye/bedarkmode/"
 
 # fuck jekyll metadata
 github:

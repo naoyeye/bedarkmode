@@ -1,11 +1,16 @@
 // ==UserScript==
 // @name         weibo-dark-mode
 // @namespace    weibo-dark-mode-by-naoyeye
-// @version      0.1
+// @version      0.0.1
 // @description  Make Weibo Dark Again!
-// @author       http://han.im
+// @author       naoyeye
+// @homepage     http://han.im
+// @website      https://naoyeye.github.io/bedarkmode/
 // @include      https://weibo.com/*
 // @include      https://www.weibo.com/*
+// @updateURL    https://naoyeye.github.io/bedarkmode/download/weibo-dark-mode.user.js
+// @downloadURL  https://naoyeye.github.io/bedarkmode/download/weibo-dark-mode.user.js
+// @supportURL   https://github.com/naoyeye/bedarkmode/issues
 // @grant        none
 // ==/UserScript==
 
