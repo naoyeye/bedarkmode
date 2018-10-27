@@ -11,7 +11,7 @@ style: |
 
 <h3 style="text-align: center;">
     <span>微博</span>
-    <a class="fuck-btn" target="_blank" href="./download/weibo-dark-mode.js">下载</a>
+    <a class="fuck-btn" target="_blank" href="./download/weibo-dark-mode.user.js">下载</a>
 </h3>
 
 <ul class="screenshot-list">
