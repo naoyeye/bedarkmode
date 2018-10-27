@@ -2,7 +2,7 @@
 * @Author: hanjiyun
 * @Date:   2018-10-26 16:40:54
 * @Last Modified by:   hanjiyun
-* @Last Modified time: 2018-10-27 15:04:37
+* @Last Modified time: 2018-10-27 15:38:40
 */
 
 body {
@@ -63,6 +63,11 @@ section #title h1 a:hover {
 
 section #title .credits {
   color: #6f8cad;
+  padding-right: 10px;
+}
+
+.credits-wrapper span.credits:nth-child(2) {
+  padding-right: 0 !important;
 }
 
 section {
@@ -181,4 +186,14 @@ h3 .fuck-btn {
   float: right;
   margin-right: 10px;
   font-size: 11px;
+}
+
+@media print, screen and (max-width: 480px) {
+
+  .preview {
+    padding-top: 20px;
+  }
+  nav {
+      display: block;
+  }
 }
