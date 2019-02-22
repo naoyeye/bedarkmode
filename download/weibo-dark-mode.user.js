@@ -200,6 +200,10 @@
       width: 640px;
     }
 
+    .B_page .WB_miniblog .WB_frame_a {
+      width: 100%;
+    }
+
     .WB_global_nav .gn_header {
       width: 700px;
     }
