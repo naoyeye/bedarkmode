@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         weibo-dark-mode
 // @namespace    weibo-dark-mode-by-naoyeye
-// @version      0.0.2
+// @version      0.0.3
 // @description  Make Weibo Dark Again!
 // @author       naoyeye
 // @homepage     http://han.im
@@ -161,6 +161,28 @@
       display: none;
     }
 
+    .WB_miniblog .WB_frame_a {
+      display: block;
+    }
+
+    .WB_artical .main_editor .preface,
+    .WB_artical .main_editor .authorinfo,
+    .WB_editor_iframe {
+      background: none;
+      color: #ddd;
+    }
+
+    .WB_artical .main_editor .title {
+      color: #eee;
+    }
+
+    .WB_artical .PCD_counter_b {
+      background: #383838;
+    }
+
+    .WB_artical .PCD_pictext_i .pt_ul .pt_li {
+      border-color: #222;
+    }
 
     .WB_frame,
     .WB_frame #plc_main,
