@@ -16,7 +16,7 @@ style: |
 
 <h3>
     <span>微博预览效果</span>
-    <a class="fuck-btn" target="_blank" href="./download/weibo-dark-mode.user.js">安装微博脚本 v0.0.3</a>
+    <a class="fuck-btn" target="_blank" href="./download/weibo-dark-mode.user.js">安装微博脚本 v0.0.4</a>
 </h3>
 
 <ul class="screenshot-list">
